@@ -7,3 +7,24 @@
 html{
     font-family: 'Rubik Mono One', sans-serif;
 }
+
+.shoe{
+    width: 100%;
+	height: 100vh;
+    text-align: center;
+}
+
+.img-shoe{
+    min-width: 10em;
+}
+
+.first{
+    background-color: #ff0000;
+}
+
+.title{
+    color: #ffff00;
+    text-align: center;
+	text-transform: uppercase;
+	font-size: 3em;
+}
