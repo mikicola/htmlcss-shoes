@@ -8,6 +8,10 @@ html, button{
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 #buttons{
     position: fixed;
     right: 1rem;
@@ -15,7 +19,6 @@ html, button{
 }
 
 button{
-    /* font-size: 1.5em; */
     border-radius: 50%;
     width: 2.5rem;
     height: 2.5rem;
@@ -24,12 +27,19 @@ button{
     margin-right: .6rem;
     padding: 10px;
     box-shadow: 2px 5px 3px hsla(0, 0%, 38%, 0.3);
-    
+    transition: 0.25s;
+}
+a {
+    transition: 0.25s;
 }
 
 button:hover{
-    background-color: lightgray;
     box-shadow: 4px 10px 6px hsla(0, 0%, 38%, 0.5);
+}
+
+button:active{
+    background-color: lightgray;
+    
 }
 
 .shoe{
@@ -39,8 +49,6 @@ button:hover{
     min-width: 1em;
 }
 
-.img-shoe{
-}
 
 .title{
     color: #ffff00;
