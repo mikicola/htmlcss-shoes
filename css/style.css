@@ -4,8 +4,19 @@
     box-sizing: border-box;
 }
 
-html{
+html, button{
     font-family: 'Rubik Mono One', sans-serif;
+}
+
+#buttons{
+    position: fixed;
+}
+
+button{
+    /* font-size: 1.5em; */
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 .shoe{
@@ -18,13 +29,25 @@ html{
     min-width: 10em;
 }
 
+.title{
+    color: #ffff00;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+.green{
+    color: #008000;
+}
+
 .first{
     background-color: #ff0000;
 }
 
-.title{
-    color: #ffff00;
-    text-align: center;
-	text-transform: uppercase;
-	font-size: 3em;
+.second{
+    background-color: #008000;
+}
+
+.third{
+    background-color: #ffff00;
 }
